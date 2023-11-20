@@ -1,0 +1,64 @@
+/*All elements*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("image/dark-souls-armor-artorias-the-abysswalker-sif-dark-soul.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.back-frem {
+    width: 40%;
+    height: 25%;
+    background: white;
+    border-radius: 23px;
+    position: fixed;
+    bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.back-frem .back_chang {
+    width: 150px;
+    height: 150px;
+    background: white;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 29px;
+}
+
+.back-frem .back_chang img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+ /*responsive opp til desktop*/
+ @media(min-height: 1025px){
+
+ }
+
+ /*responsive opp til tablet*/
+ @media(min-height: 770px){
+
+ }
+
+ /*responsive opp til mobil*/
+ @media(min-height: 340px){
+
+ }
+ /* MOBILE S TO MOBILE L */
+@media screen and (max-width: 426px) {
+    
+}
